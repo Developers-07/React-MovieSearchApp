@@ -1,0 +1,9 @@
+/* WHOLE CONTAINER DESIGN */
+
+.movieContainer {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }

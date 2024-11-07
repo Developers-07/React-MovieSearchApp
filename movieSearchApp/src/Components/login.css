@@ -1,0 +1,20 @@
+.login-contain{
+    padding: 10px 10px;
+}
+input{
+    padding: 10px;
+    border-radius: 0.5rem;
+    color:blueviolet;
+    font-weight: bold;
+}
+button{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+
+/* CARD DESIGN */
+
+.card {
+  width: 20rem;
+  margin: 1rem;
+  grid-column-end: span 4;
+  display: flex;
+  flex-direction: column;
+  background-color: #eeeef3;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  text-align: center;
+}
+.card:hover {
+  transform: translateY(-7px);
+}
+
+
+/* IMAGE DESIGN */
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  width: 100%;
+  height: 200px; /* Or any fixed height */
+  overflow: hidden;
+}
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill; /* Options: cover, contain, fill */
+
+  margin: auto;
+  /* transition: transform 0.3s ease; */
+  transition: box-shadow 0.3s ease;
+}
+.image-container img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
